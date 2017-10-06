@@ -1,9 +1,0 @@
-{% if all_temperatures %}
-	<u1>
-		{% for temperature in all_temperatures %}
-		<li><a href="/calculate/{{ temperature.id }}/">{{ temperature.city }}</a>></li>
-		{% endfor %}
-	</u1>
-{% else %}
-	<h3>You don't have any temperature</h3>
-{% endif %}

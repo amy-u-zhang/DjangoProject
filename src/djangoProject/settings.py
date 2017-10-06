@@ -37,9 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'calculate.apps.CalculateConfig',
     'rest_framework',
-    'service.apps.ServiceConfig',
     'weather.apps.WeatherConfig',
 
 
